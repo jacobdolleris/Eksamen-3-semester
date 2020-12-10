@@ -1,0 +1,72 @@
+
+@media only screen and (max-width: 1100px){
+
+.kasse{
+  width: 80%;
+}
+
+}
+.nav2{
+  display: none;
+}
+.formlg{
+  display: block;
+}
+@media only screen and (max-width: 750px){
+
+  #nav1{
+    display: none;
+  }
+
+  .nav2{
+    display: flex;
+  }
+}
+
+.latest{
+  display: none;
+}
+@media only screen and (max-width: 1050px) {
+ 
+  .signupBox {
+      width: 300px;
+  }
+  #b2{
+    display: none;
+  }
+  #b3{
+    display: none;
+  }
+  .hide{
+    display: none;
+  }
+  .picContainer{
+    width: 65%;
+  }
+  .hidetext{
+    display: none;
+  }
+  .latest{
+    display: block;
+  }
+}
+.footer{
+  display: none;
+}
+@media only screen and (max-width: 850px) {
+.logoutKnap{
+display: none;
+}
+.footer{
+  display: flex;
+  }
+  nav a{
+    font-size: 16px;
+  }
+
+}
+
+@media only screen and (max-width: 1300px){
+  .formTop{
+    display: none;
+  }}
