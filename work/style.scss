@@ -1,0 +1,265 @@
+*{
+    font-family: sans-serif;
+}
+body
+{
+
+    background: url("../images/bc-gamesite.jpg")no-repeat;
+   background-size: 2500px;
+
+   
+   
+}
+
+
+//                                       ----   Navigation    
+
+#nav1{
+    background-color: white;
+    height: 70px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-top: 20px;
+
+   
+
+    a{
+        color: black;
+        text-decoration: none;
+        padding-left: 40px;
+        font-size: 20px;
+        
+        
+        &:hover{
+            text-decoration: none;
+            color: cadetblue;
+            
+        }
+    }
+ 
+
+  
+    
+   
+}
+
+
+//                                       ----   Form    
+
+.form{
+    float: right;
+    display: flex;
+    input{
+        margin-right: 10px;
+    }    
+}
+
+.formind{
+    display: block;
+    margin-top: 20px;
+    input{
+        display: block;
+        width: 200px;
+        margin: auto;
+    }
+    button{
+        display: block;
+        margin: auto;
+        margin-top: 10px;;
+    }
+    
+        
+    
+}
+
+h1{
+    mark {
+    background:none;
+    color:green;
+    text-decoration: underline;
+  }
+}
+//                                       ----   Signup   
+
+.sup{
+    text-align: center;
+    padding-top: 20px;
+    font-size: large;
+}
+
+.signupBox{
+   
+    text-align: left;
+   width: 300px;
+   margin: auto;
+   
+   border-radius: 10px;
+   margin-top: 10px;
+   box-shadow: 5px 5px grey;
+   background-color: white;
+
+   input{
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+   }
+   button{
+       margin-bottom: 10px;
+       
+     
+   }
+
+}
+
+.textCenter{
+    text-align: center;
+}
+
+
+//                                       ----   Elementer    
+
+.intro{
+    width: 60%;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    
+    
+    h1{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+   
+    h2{
+        margin-bottom: 20px;
+        margin-left: 30px;
+        
+    }
+    h3{
+        margin-left: 30px;
+    }
+    p{
+        margin-left: 30px;
+    }
+}
+
+.kasse{
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    background-color: white;
+    box-shadow: 5px 5px grey;
+}
+.picContainer{
+    box-shadow: 5px 5px grey;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    height:300px ;
+    padding-top: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: center; 
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+.pic1{
+   
+   width: 300px;
+    height: 200px;
+    background-image: url(../mariomaze/images/level3.png);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(60, 60, 60);
+    border-radius: 10px;
+
+    p{
+        font-size: 30px;
+        color: white;
+        background-color: rgb(60, 60, 60);
+        border-radius: 5px;
+       
+    }
+}
+.pic2{
+    background-image: url(../images/zoo.png);
+}
+.pic3{
+    background-image: url(../images/drumset.png);
+}
+.startGameBtn{
+    margin-left: 30px;
+}
+
+.no{
+    text-align: center;
+    font-size: 40px;
+    color: red;
+}
+
+.lg{
+    color: black;
+    font-size: 30px;
+}
+
+.tilmeld{
+
+    padding-top: 10px;
+    button{
+        margin-right: 20px;
+    }
+}
+
+.logoutKnap{
+    margin-right: 30px;
+}
+
+.virbilleder{
+ margin-top: 50px;
+ text-align: center;
+}
+
+.forside{
+    width: 80%;
+    margin-top: 50px;
+    img{
+        margin:20px 20px;    }
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    height: 60px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-top: 10px;
+  justify-content: center;
+
+  button{
+      width: 300px;
+  }
+   
+}
+//                                       ----   Kontakt   
+.kontakt{
+    text-align: center;
+    padding-top: 20px;
+    input{
+        width: 50%;
+        margin-bottom: 10px;
+        border-radius: 3px;
+    }
+    textarea{
+        width: 60%;
+        border-radius: 3px;
+    }
+}
+
